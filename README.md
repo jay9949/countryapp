@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Image
+![Screenshot 2023-12-12 141735](https://github.com/jay9949/countryapp/assets/115682697/31627b6a-6ad0-46aa-b5d5-33edb9781149)
+
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
