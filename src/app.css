@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+.container {
+  width: 1500px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+
+body {
+  background: #041c2f;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: hsl(209, 23%, 22%);
+  z-index: 11;
+}
+
+.country__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 3rem;
+  margin: 0 auto;
+}
+
+.country__card {
+  width: 280px;
+  height: 350px;
+  border-radius: 8px;
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.country__img img {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.all__country__wrapper {
+  margin-top: 100px;
+}
+
+.country__data {
+  padding: 20px;
+}
+
+.country__data h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.country__data h6 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  opacity: 80%;
+  font-size: 12px;
+}
+
+.country__bottom h4 {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+input {
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  background: hsl(209, 23%, 22%);
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+  /* cursor: pointer; */
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.country__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+select {
+  padding: 10px 25px;
+  background: hsl(209, 23%, 22%);
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.border-btn {
+  background-color: #3d617e;
+  padding: 1px 3px;
+  border-radius: 5px;
+  margin: 0 0 0 3px;
+  color: white;
+}
+.border-spn {
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border-btn:hover {
+  background-color: #1c2227;
+}
+.country__info__wrapper {
+  margin-top: 8rem;
+}
+
+.country__info__container {
+  display: flex;
+}
+
+.country__info-img {
+  width: 50%;
+  padding-left: 14rem;
+  justify-items: end;
+}
+.country__info {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.country__info h3 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.country__info-left h5 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.country__info-left h5 span {
+  color: #fff;
+  opacity: 85%;
+  font-weight: 400;
+}
+.g-map {
+  display: flex;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 85%;
+  font-weight: 400;
+}
